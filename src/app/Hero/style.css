@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+#Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 554px;
+    color: white;
+    background-color: rgba(29, 28, 28, 0.5);
+    font-family: "Outfit", sans-serif;
+}
+
+#Hero::before {
+    content: "";
+    position: absolute;
+    background: url('../../assets/Frame1.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+.hero-heading {
+    font-size: 60px;
+    font-weight: 600;
+    width: 600px;
+    text-align: center;
+}
+
+.hero-box {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 60%;
+    top: 90%;
+    left: 20%;
+    z-index: 1;
+    border-radius: 15px;
+    gap: 20px;
+    height: 170px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.box-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    color: #1D2939;
+}
+
+.box-content p {
+    color: #6E9F28;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+}
+
+.hero-box2 {
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box2-content {
+    display: flex;
+    border: 1px solid #D0D5DD;
+    width: 32%;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #D0D5DD;
+    color: #6E9F28;
+    margin: auto 3px;
+}
+
+.txt-box {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 0px 25px;
+}
+
+.txt-box h1 {
+    font-size: 29px;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin-top: 0px;
+}
+
+.txt-box p {
+    font-size: 22px;
+    color: #667085;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-box {
+        top: 123%;
+    }
+
+    .box-content h1 {
+        font-size: 45px;
+    }
+
+    .box-content p {
+        font-size: 23px;
+    }
+
+    .txt-box p {
+        font-size: 20px;
+    }
+
+    .txt-box h1 {
+        font-size: 21px;
+    }
+
+    .box2-content {
+        width: 33%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-box {
+        top: 123%;
+        width: 70%;
+        left: 15%;
+    }
+
+    .hero-heading {
+        font-size: 55px;
+    }
+
+    .box-content h1 {
+        font-size: 40px;
+    }
+
+    .box-content p {
+        font-size: 20px;
+    }
+
+    .hero-box2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .box2-content {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .box2-content:nth-child(3) {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+
+
+    .txt-box p {
+        font-size: 20px;
+    }
+
+    .txt-box h1 {
+        font-size: 21px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 778px) {
+
+    .hero-box {
+        top: 122%;
+        width: 85%;
+        left: 7%;
+        height: 155px;
+    }
+
+    .hero-heading {
+        width: 70%;
+        font-size: 40px;
+    }
+
+    .box-content h1 {
+        font-size: 32px;
+    }
+
+    .box-content p {
+        font-size: 16px;
+    }
+
+    .hero-box2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .box2-content {
+        width: 100%;
+        /* flex: 1 1 calc(50% - 20px); */
+        /* max-width: calc(50% - 20px); */
+    }
+
+    /* .box2-content:nth-child(3) {
+        flex: 1 1 100%;
+        max-width: 100%;
+    } */
+
+
+
+    .txt-box p {
+        font-size: 20px;
+    }
+
+    .txt-box h1 {
+        font-size: 21px;
+    }
+
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+#gallery {
+    position: relative;
+    top: 200px;
+}
+
+#gallery h1 {
+    font-size: 45px;
+    /* font-weight: bold; */
+    padding: 15px 33px;
+    font-family: "Outfit", sans-serif;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1 {
+    width: 30%;
+    position: relative;
+    height: 360px;
+    border-radius: 25px;
+    margin: 7px;
+}
+
+.box1::before {
+    content: "";
+    position: absolute;
+    background: url('../../assets/gallery1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.box2 {
+    width: 30%;
+    position: relative;
+    height: 360px;
+    border-radius: 25px;
+    margin: 7px;
+
+}
+
+.box2::before {
+    content: "";
+    position: absolute;
+    background: url('../../assets/gallery2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.box3 {
+    width: 33%;
+    position: relative;
+    height: 360px;
+    border-radius: 25px;
+    margin: 7px;
+
+}
+
+.box3::before {
+    content: "";
+    position: absolute;
+    background: url('../../assets/gallery3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.box4 {
+    width: 45%;
+    position: relative;
+    height: 360px;
+    border-radius: 25px;
+    margin: 7px;
+}
+
+.box4::before {
+    content: "";
+    position: absolute;
+    background: url('../../assets/gallery4.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.box5 {
+    width: 49%;
+    position: relative;
+    height: 360px;
+    border-radius: 25px;
+    margin: 7px;
+}
+
+.box5::before {
+    content: "";
+    position: absolute;
+    background: url('../../assets/gallery5.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.box6 {
+    width: 58%;
+    position: relative;
+    height: 360px;
+    border-radius: 25px;
+    margin: 7px;
+}
+
+.box6::before {
+    content: "";
+    position: absolute;
+    background: url('../../assets/gallery6.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.box7 {
+    width: 36%;
+    position: relative;
+    height: 360px;
+    border-radius: 25px;
+    margin: 7px;
+}
+
+.box7::before {
+    content: "";
+    position: absolute;
+    background: url('../../assets/gallery7.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 25px;
+}
