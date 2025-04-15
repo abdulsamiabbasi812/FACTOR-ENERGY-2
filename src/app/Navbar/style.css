@@ -50,3 +50,28 @@
     }
 
 }
+
+@media (max-width: 576px) {
+    #navbar {
+        height: 80px;
+    }
+
+    .nav-left {
+        padding-left: 1px;
+    }
+
+    .logo img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .ul-lines {
+        gap: 12px;
+        padding-right: 1px;
+    }
+
+    .ul-lines li a {
+        font-size: 16px;
+    }
+
+}

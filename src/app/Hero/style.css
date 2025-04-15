@@ -245,3 +245,52 @@
     }
 
 }
+
+@media(max-width: 576px) {
+
+    #Hero {
+        height: 450px;
+    }
+
+    .hero-box {
+        top: 101%;
+        width: 85%;
+        left: 8%;
+        height: 130px;
+    }
+
+    .hero-heading {
+        width: 70%;
+        font-size: 32px;
+    }
+
+    .box-content h1 {
+        font-size: 30px;
+    }
+
+    .box-content p {
+        font-size: 16px;
+    }
+
+    .hero-box2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .box2-content {
+        width: 95%;
+    }
+
+
+
+    .txt-box p {
+        font-size: 20px;
+    }
+
+    .txt-box h1 {
+        font-size: 21px;
+    }
+
+}
