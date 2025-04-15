@@ -100,7 +100,7 @@
     }
 }
 
-@media(max-width: 430px) {
+@media(max-width: 380px) {
     .logo img {
         width: 65%;
         height: 65%;
