@@ -30,3 +30,41 @@
 .arrow-btn {
     padding: 23px 23px;
 }
+
+@media (min-width: 576px) and (max-width: 768px) {
+    #contact {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        height: 250px;
+    }
+
+    .contact-h1 {
+        width: 70%;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    #contact {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        height: 250px;
+    }
+
+    .contact-h1 {
+        width: 70%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contact-btn {
+        padding: 17px 40px;
+    }
+
+    .arrow-btn {
+        padding: 17px 20px;
+    }
+}

@@ -7,7 +7,6 @@
 
 #gallery h1 {
     font-size: 45px;
-    /* font-weight: bold; */
     padding: 15px 33px;
     font-family: "Outfit", sans-serif;
 }
@@ -167,4 +166,44 @@
     z-index: -1;
     opacity: 0.9;
     border-radius: 25px;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    #gallery h1{
+        font-size: 40px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6{
+        width: 45%;
+        height: 300px;
+    }
+
+    .box7{
+        width: 92%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    #gallery h1{
+        font-size: 40px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7{
+        width: 93%;
+        height: 300px;
+    }
+
+    
 }

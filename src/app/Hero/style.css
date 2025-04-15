@@ -194,7 +194,7 @@
 
 }
 
-@media (min-width: 576px) and (max-width: 778px) {
+@media (min-width: 576px) and (max-width: 768px) {
 
     .hero-box {
         top: 122%;
@@ -270,6 +270,55 @@
 
     .box-content p {
         font-size: 16px;
+    }
+
+    .hero-box2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .box2-content {
+        width: 95%;
+    }
+
+
+
+    .txt-box p {
+        font-size: 20px;
+    }
+
+    .txt-box h1 {
+        font-size: 21px;
+    }
+
+}
+
+@media(max-width: 430px) {
+
+    #Hero {
+        height: 380px;
+    }
+
+    .hero-box {
+        top: 86%;
+        width: 85%;
+        left: 8%;
+        height: 130px;
+    }
+
+    .hero-heading {
+        width: 70%;
+        font-size: 27px;
+    }
+
+    .box-content h1 {
+        font-size: 23px;
+    }
+
+    .box-content p {
+        font-size: 14px;
     }
 
     .hero-box2 {

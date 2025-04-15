@@ -75,3 +75,27 @@
     }
 
 }
+
+@media(max-width: 430px) {
+    #navbar {
+        height: 70px;
+    }
+
+    .nav-left {
+        padding-left: 1px;
+    }
+
+    .logo img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .ul-lines {
+        gap: 8px;
+        padding-right: 1px;
+    }
+
+    .ul-lines li a {
+        font-size: 14px;
+    }
+}
